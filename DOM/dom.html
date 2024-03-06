@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML DOM</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    
+    <h1>Upotreba CSS @media</h1>
+    <p>Ovaj primer pokazuje kako se boja pozadine menja u zavisnosti od veličine ekrana.</p>
+
+    <a href="https://www.elab.rs">elab</a>
+    <button class="klasa k1">Dugme</button>
+    <button class="klasa k2">Dugme2</button>
+
+    <ul>
+        <li>neli tekst 1</li>
+        <li>neli tekst 2</li>
+        <li>neli tekst 3</li>
+        <li>neli tekst 4</li>
+    </ul>
+
+    <h1 id="glavniNaslovID">HTML DOM</h1>
+    <h3>Prijavi se</h3>
+    <form name="prijavaForma">
+      <label for="imeID">Korisnicko ime</label>
+      <input type="text" name="ime" id="imeID" /> <br /><br />
+      <label for="sifraID">Sifra</label>
+      <input type="password" name="sifra" id="sifraID" /><br /><br />
+      <button id="prijava">Prijavi se</button>
+    </form>
+    <hr />
+    <h3>Prijava za posao</h3>
+    <form name="posaoForma">
+      <label for="pozicijaID">Kompanija</label>
+      <input type="text" name="fakultet" id="fakultetID" /><br />
+      <p>Tehnologije</p>
+      <input type="checkbox" class="tehnologijaKlasa" /> HTML
+      <br />
+      <input type="checkbox" class="tehnologijaKlasa" /> CSS
+      <br />
+      <input type="checkbox" class="tehnologijaKlasa" /> JavaScript
+      <br />
+      <input type="checkbox" class="tehnologijaKlasa" /> Angular
+      <br />
+    </form>
+    <hr />
+    <h3 id="website">Website</h3>
+    <a href="https://elab.fon.bg.ac.rs/" target="_blank" onclick="promeni();"
+      >Katedra Elab-a</a
+    >
+    <br />
+    <a href="http://www.fon.bg.ac.rs/" target="_blank">FON</a>
+    <hr />
+    <h3>Logo</h3>
+    <div id="imgContainer">
+      <img
+        src="jpg/elab-logo.png"
+        alt="Ovo je logo Elab-a."
+        style="width: 250px; height: 200px"
+      />
+      <img
+        src="jpg/fon logo.jpg"
+        alt="Ovo je logo fona"
+        style="width: 250px; height: 200px"
+      />
+    </div>
+    <script src="dom.js"></script>
+  </body>
+</html>
